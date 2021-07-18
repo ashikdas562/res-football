@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* top banner */
+.top-layout{
+    background-color:#2d25a0 ;
+    display: flex;
+    justify-content: space-evenly;
+    border-left: 1px solid #2D25A0;
+}
+
+
+.top-banner img{
+width: 400px;
+height: 350px;
+}
+.top-banner:hover img{
+    transform:scale(1.2);
+}
+.bar-title h1{
+    color: white;
+
+}
+.top-color{
+    background-color:#E02C6D;
+    color: white;
+    padding: 7px 14px;
+    font-size:14px;
+}
+.top-layout,.top-banner{
+    border: 1px solid #2D25A0;
+
+}
+
+/* top banner end */
+
+
+
+
