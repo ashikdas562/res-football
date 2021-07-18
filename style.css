@@ -58,6 +58,7 @@ height: 350px;
     width:200px;
     height: 156px;
     padding-left: 20%;
+    border-radius: 10px;
 }
 .player-title{
     font-size: 20px;
@@ -109,6 +110,25 @@ height: 350px;
 }
 .copyright{
     margin-left: 42%;
+}
+ /* media query */
+  
+ /*----------------
+ mobile device 
+  *****************/
+  @media only screen and (max-width: 688px){
+      .top-layout, .container, .container-2, .container-3{
+          width: 100%;
+      }
+      .players, .thumnail{
+          grid-template-columns: repeat(1, 1fr);
+      }
+  }
+/* tab device */
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    .players, .thumnail{
+        grid-template-columns: repeat(2, 1fr);
+
 }
 
 
