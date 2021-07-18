@@ -36,4 +36,82 @@ height: 350px;
 
 
 
+/* plauers style */
+.container{
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    padding-left: 8%;
+    }
+.players{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    align-items: center;
+    
+}
+.player{
+    padding: 20px;
+    box-shadow: 10px 10px 20px grey;
+    margin-top: 15px;
+    width: 400px;
+}
+.players .player-banner img{
+    width:200px;
+    height: 156px;
+    padding-left: 20%;
+}
+.player-title{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.player-author{
+    font-size: 10px;
+    color: gray;
+    text-align: justify;
+}
+/* second section */
+.container-2{
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    padding-left: 8%;
+}
+.thumnail{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#watch-now{
+    background-color:#E02C6D;
+    color: white;
+    padding: 7px 14px;
+    font-size:14px;
+
+}
+
+.thumnail-banner img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+
+
+
+}
+/* third-container */
+.logo-banner img{
+    width: 450px;
+    height: 250px;
+    margin-left: 33%;
+}
+.social{
+    font-size: 30px;
+    margin-left: 42%;
+    color: wheat;
+}
+.copyright{
+    margin-left: 42%;
+}
+
+
+
+
 
